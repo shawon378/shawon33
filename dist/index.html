@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./img/fav3.png" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Shawon - Mini_Portfolio</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="profile container">
+        <!-- Theme button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <!-- Insert your image, according to the example size of the portfolio -->
+                        <img src="./img/mrinnnmoy-bg.png" alt="profile-img">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">Shawon Shaha</h2>
+                <h3 class="profile__profession">Junior Mechanical Engineer</h3>
+
+                <ul class="profile__social">
+                    <a href="http://twitter.com" target="_blank" class="profile__social-link">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank" class="profile__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://github.com" target="_blank" class="profile__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                    <a href="https://medium.com/" target="_blank" class="profile__social-link">
+                        <i class="ri-rss-fill"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="profile__myself">
+                <p>Hey, I'm  Shawon , a senior pursuing my Bachelors in Mechanical Engineering. I am <br>
+                    passionate about 3d Modeling & I enjoy learning new things.</p>
+            </div>
+
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">1</h3>
+                    <p class="profile__info-description">
+                        Years of <br> work
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">25</h3>
+                    <p class="profile__info-description">
+                        Completed <br> projects
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">3</h3>
+                    <p class="profile__info-description">Competition<br> Attended</p>
+                </div>
+            </div>
+
+            <div class="profile__buttons">
+                <!-- Insert your CV -->
+                <a download="" href="file:///C:/Users/ashik/AppData/Local/Microsoft/Windows/INetCache/IE/7HEEBBGN/Main%20CV%204[1].pdf" class="button">
+                    Download CV <i class="ri-download-line"></i>
+                </a>
+
+                <div class="profile__buttons-small">
+                    <!-- Insert a real number plus country code -->
+                    <a href="https://api.whatsapp.com"
+                        target="_blank" class="button button__small button__gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <!-- Insert your brand name or profile -->
+                    <a href="https://www.facebook.com/profile.php?id=100008900834544" target="_blank" class="button button__small button__gray">
+                        <i class="ri-messenger-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <section class="filters container">
+            <!--=============== FILTERS TABS ===============-->
+            <ul class="filters__content">
+            <button class="filters__button filter-tab-active" data-target="#projects">Projects</button>
+            <button class="filters__button" data-target="#skills">Skills</button>
+            <button class="filters__button" data-target="#education">Certificate</button>
+            <button class="filters__button" data-target="#Events">Events</button>    
+            </ul>
+
+            <div class="filters__sections">
+                <!--=============== PROJECTS ===============-->
+                <div>
+                    <div class="projects__content grid filters__active" data-content id="projects">
+
+                        <article class="projects__card">
+                            <img src="./img/budget-app.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">CAD</span>
+                                    <h3 class="projects__title">Exavator</h3>
+                                    <a href="https://grabcad.com/" target="_blank"
+                                        class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="./img/Automart.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">CAD</span>
+                                    <h3 class="projects__title">Tractor</h3>
+                                    <a href="https://grabcad.com/" target="_blank"
+                                        class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="./img/nft-marketplace-preview.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">CAD</span>
+                                    <h3 class="projects__title">Cannon</h3>
+                                    <a href="https://grabcad.com/" target="_blank"
+                                        class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="./img/realestate-preview.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">CAD</span>
+                                    <h3 class="projects__title">Motor</h3>
+                                    <a href="https://grabcad.com/" target="_blank"
+                                        class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+
+                        <article class="projects__card">
+                            <img src="./img/Automart3.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">CAD</span>
+                                    <h3 class="projects__title">CAR</h3>
+                                    <a href="https://grabcad.com/" target="_blank"
+                                        class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        
+                        <article class="projects__card">
+                            <img src="./img/Automart4.png" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">CAD</span>
+                                    <h3 class="projects__title">Mini Exavator</h3>
+                                    <a href="https://grabcad.com/" target="_blank"
+                                        class="projects__button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                       
+                    </div>
+                </div>
+
+                        <!--skills-->
+          <div class="skillsContent grid" data-content id="skills">
+            <div class="skillsArea">
+              <h3 class="skillsTitle">
+                  About Me
+              </h3>
+
+              <div class="skillsBox">
+                <div class="skillsGroup">
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                     
+                      <span class="skillsLevel">
+                        As a Mechanical engineer with passion for designing and optimizing innovative solutions, combining technical expertise with a strong analytical mindset to drive efficiency and excellence in Mechanical systems.
+                        </span>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="skillsArea">
+              <h3 class="skillsTitle">
+               SkillsArea
+              </h3>
+
+              <div class="skillsBox">
+                <div class="skillsGroup">
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skillsName"><a href="https://www.facebook.com/" style="color: inherit;">Circuit Design</a></h3>
+                      <span class="skillsLevel">Intermediate</span>
+                    </div>
+                  </div>
+                  
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName"><a href="https://www.facebook.com/" style="color: inherit;">Arduino</a></h3>
+                      <span class="skillsLevel">Intermediate</span>
+                    </div>
+                  </div>
+                  
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName"><a href="https://www.facebook.com/" style="color: inherit;">python</a></h3>
+                      <span class="skillsLevel">Advance</span>
+                    </div>
+                  </div>
+
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName"><a href="https://www.facebook.com/" style="color: inherit;">OpenCv</a></h3>
+                      <span class="skillsLevel">Intermediate</span>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="skillsGroup">
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName"><a href="https://www.facebook.com/" style="color: inherit;">solidWorks</a></h3>
+                      <span class="skillsLevel">Basic</span>
+                    </div>
+                  </div>
+                  
+                  <div class="skillsData">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skillsName"><a href="https://www.facebook.com/" style="color: inherit;">C++</a></h3>
+                      <span class="skillsLevel">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                <!-- Education -->
+                <div class="edu__content grid" data-content id="education">
+                    <article class="edu__card">
+                        <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                        <img src="./img/tib.png" alt="TIB" class="edu__img">
+
+                        <div class="edu__modal">
+                            <div>
+                                <span class="edu__subtitle">IMUN</span>
+                                <h3 class="edu__title">Conference</h3>
+                                <a href="https://drive.google.com/file/d/1KgNcviOYA_ZdLd0vfWSyFiRg-JPtAOCa/view?usp=drive_link" target="_blank" class="edu__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="edu__card">
+                        <img src="./img/PTC.png" alt="PTC" class="edu__img">
+
+                        <div class="edu__modal">
+                            <div>
+                                <span class="edu__subtitle">Associte</span>
+                                <h3 class="edu__title">Solidworks</h3>
+                                <a href="https://drive.google.com/file/d/19Kild4bRZ-jvDtAOl5U3XcgnMsa0E_HA/view?usp=sharing" target="_blank"
+                                    class="edu__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="edu__card">
+                        <img src="./img/kecs.png" alt="kecs" class="edu__img">
+
+                        <div class="edu__modal">
+                            <div>
+                                <span class="edu__subtitle">Fundamental</span>
+                                <h3 class="edu__title">Solidworks</h3>
+                                <a href="https://drive.google.com/file/d/1Av_PuMK7_F3YyhF-B7cpT7Qz_aRnBdHQ/view?usp=drive_link" target="_blank"
+                                    class="edu__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        
+        
+        <!-- Events -->
+        <div class="ev__content grid" data-content id="Events">
+         
+
+            <article class="ev__card">
+                <img src="./img/sd.jpg" alt="kecs" class="ev__img">
+
+                <div class="ev__modal">
+                    <div>
+                        <span class="ev__subtitle">Instractor</span>
+                        <h3 class="ev__title">Mechanical</h3>
+                        <a href="https://www.facebook.com/photo/?fbid=224318523674384&set=gm.145048185220008 target="_blank"
+                            class="ev__button button button__small">
+                            <i class="ri-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+        
+        
+        
+        
+        
+        
+        
+</section>
+</main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169;  All rigths reserved
+        </span>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="./js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
